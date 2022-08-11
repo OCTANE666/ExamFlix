@@ -144,12 +144,14 @@ header .icons #menu-bars{
     height:168px;
 }
 .dbms .box img{
+    margin-left:20px;
     width:299px;
     height:168px;
     align-items: center;
 }
 
 .dbms .content h3{
+    margin-left:20px;
     font-size: 1.7rem;
     color: #ffffff;
     text-transform: uppercase;
@@ -158,6 +160,7 @@ header .icons #menu-bars{
 }
 
 .dbms .content p{
+    margin-left:20px;
     text-align: left;
     font-size: 1.2rem;
     color:#fff;
@@ -178,12 +181,14 @@ header .icons #menu-bars{
     height:168px;
 }
 .coa .box img{
+    margin-left:20px;
     width:299px;
     height:168px;
     align-items: center;
 }
 
 .coa .content h3{
+    margin-left:20px;
     font-size: 1.7rem;
     color: #ffffff;
     text-transform: uppercase;
@@ -192,6 +197,7 @@ header .icons #menu-bars{
 }
 
 .coa .content p{
+    margin-left:20px;
     text-align: left;
     font-size: 1.2rem;
     color:#fff;
@@ -214,12 +220,14 @@ header .icons #menu-bars{
     height:168px;
 }
 .gt .box img{
+    margin-left:20px;
     width:299px;
     height:168px;
     align-items: center;
 }
 
 .gt .content h3{
+    margin-left:20px;
     font-size: 1.7rem;
     color: #ffffff;
     text-transform: uppercase;
@@ -228,6 +236,7 @@ header .icons #menu-bars{
 }
 
 .gt .content p{
+    margin-left:20px;
     text-align: left;
     font-size: 1.2rem;
     color:#fff;
@@ -249,12 +258,14 @@ header .icons #menu-bars{
     height:168px;
 }
 .os .box img{
+    margin-left:20px;
     width:299px;
     height:168px;
     align-items: center;
 }
 
 .os .content h3{
+    margin-left:20px;
     font-size: 1.7rem;
     color: #ffffff;
     text-transform: uppercase;
@@ -263,6 +274,7 @@ header .icons #menu-bars{
 }
 
 .os .content p{
+    margin-left:20px;
     text-align: left;
     font-size: 1.2rem;
     color:#fff;
