@@ -321,15 +321,18 @@ header .icons #menu-bars{
         margin-right: 10px;
     }
     .dbms .box{
+        
         width: 105px;
         height:117px;
     }
     .dbms .box img{
+        margin-left:20px;
         width:105px;
         height:100px;
         align-items: center;
     }
     .dbms .content h3{
+        margin-left:20px;
         font-size: 1.5rem;
         color: #ffffff;
         text-transform: uppercase;
@@ -337,6 +340,7 @@ header .icons #menu-bars{
         background: transparent;
     }
     .dbms .content{
+        margin-left:20px;
         margin-top: 4px;
         width: 105px;
     }
@@ -355,11 +359,13 @@ header .icons #menu-bars{
         height:117px;
     }
     .coa .box img{
+        margin-left:20px;
         width:105px;
         height:100px;
         align-items: center;
     }
     .coa .content h3{
+        margin-left:20px;
         font-size: 1.5rem;
         color: #ffffff;
         text-transform: uppercase;
@@ -367,6 +373,7 @@ header .icons #menu-bars{
         background: transparent;
     }
     .coa .content{
+        margin-left:20px;
         margin-top: 4px;
         width: 105px;
     }
@@ -386,11 +393,13 @@ header .icons #menu-bars{
         height:117px;
     }
     .gt .box img{
+        margin-left:20px;
         width:105px;
         height:100px;
         align-items: center;
     }
     .gt .content h3{
+        margin-left:20px;
         font-size: 1.5rem;
         color: #ffffff;
         text-transform: uppercase;
@@ -398,6 +407,7 @@ header .icons #menu-bars{
         background: transparent;
     }
     .gt .content{
+        margin-left:20px;
         margin-top: 4px;
         width: 105px;
     }
@@ -419,11 +429,13 @@ header .icons #menu-bars{
         height:117px;
     }
     .os .box img{
+        margin-left:20px;
         width:105px;
         height:100px;
         align-items: center;
     }
     .os .content h3{
+        margin-left:20px;
         font-size: 1.5rem;
         color: #ffffff;
         text-transform: uppercase;
@@ -431,6 +443,7 @@ header .icons #menu-bars{
         background: transparent;
     }
     .os .content{
+        margin-left:20px;
         margin-top: 4px;
         width: 105px;
     }
