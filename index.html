@@ -60,7 +60,7 @@ menu.onclick = () =>{
 <!-- GTC slider -->
 <section class="gt" id="gt">
     <h1 class="heading">GTC</h1>
-    <div class="swiper gt-slider">
+    <div class="swiper x-slider">
         <div class="swiper-wrapper">
 
             <div class="swiper-slide">
@@ -129,7 +129,7 @@ menu.onclick = () =>{
 <!-- OS slider -->
 <section class="os" id="os">
     <h1 class="heading">OS</h1>
-    <div class="swiper os-slider">
+    <div class="swiper x-slider">
         <div class="swiper-wrapper">
 
             <div class="swiper-slide">
@@ -195,7 +195,7 @@ menu.onclick = () =>{
 <!-- Dbms slider -->
 <section class="dbms" id="dbms">
     <h1 class="heading">DBMS</h1>
-    <div class="swiper dbms-slider">
+    <div class="swiper x-slider">
         <div class="swiper-wrapper">
 
             <div class="swiper-slide">
@@ -261,7 +261,7 @@ menu.onclick = () =>{
 <!-- coa slider -->
 <section class="coa" id="coa">
     <h1 class="heading">COA</h1>
-    <div class="swiper coa-slider">
+    <div class="swiper x-slider">
         <div class="swiper-wrapper">
           
             <div class="swiper-slide">
@@ -346,46 +346,19 @@ menu.onclick = () =>{
 
 <!--COA Script -->
 <script>
-    var swiper = new Swiper(".coa-slider", {
-        slidesPerView: 3,
-        spaceBetween: 10,
-      
-      });
-    </script>
-
-
-<!--OS Script -->
-<script>
-    var swiper = new Swiper(".os-slider", {
-        slidesPerView: 3,
-        spaceBetween: 10,
-
-       
-      });
-    </script>
-
-
-<!--GT Script -->
-<script>
-    var swiper = new Swiper(".gt-slider", {
-        slidesPerView: 3,
-        spaceBetween: 10,
-       
-     
-     
-      });
-    </script>
-
-
-<!--DBMS Script -->
-<script>
-
-
-var swiper = new Swiper(".dbms-slider", {
+   var swiper = new Swiper(".x-slider", {
     slidesPerView: 3,
-    spaceBetween: 10,
-   
-  
+    spaceBetween: 50,
+    centeredSlides: true,
+    autoplay: {
+      delay: 450000,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    loop:true
   });
 </script>
 
