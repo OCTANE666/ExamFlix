@@ -108,34 +108,22 @@ header .icons #menu-bars{
 
 
 .heading{
-    margin-top: 30px;
-    text-align: center;
-    color: var(--red);
+    margin-top: 100px;
+    text-align: left;
+    color: rgb(253, 0, 0);
     margin-bottom: 3rem;
-    font-size:4rem;
+    font-size:3.5rem;
+    letter-spacing: 2px;
+    font-weight: 400;
 }
 
-.btn{
-    margin-top:1rem;
-    display: inline-block;
-    font-size: 1.7rem;
-    color: #fff;
-    background: var(--red);
-    border-radius: .5rem;
-    cursor: pointer;
-    padding: .8rem 3rem;
-}
-.btn:hover{
-    background: var(--black);
-    color: var(--red);
-    letter-spacing: .1rem;
-}
 
 
 
 /* Dbms */
 .sbj{
-    padding:5rem;
+   
+    width: 100%;
     
 }
 
@@ -150,6 +138,7 @@ header .icons #menu-bars{
 }
 
 .sbj .content h3{
+    margin-top: 40px;
     font-size: 1.7rem;
     color: #ffffff;
     text-transform: uppercase;
@@ -157,13 +146,6 @@ header .icons #menu-bars{
     background: transparent;
 }
 
-.sbj .content p{
-    text-align: left;
-    font-size: 1.2rem;
-    color:#fff;
-    text-decoration: none;
-
-}
 
 
 
@@ -200,8 +182,16 @@ header .icons #menu-bars{
 
 
 @media(max-width: 991px){
+    body{
+        width: 100%;
+        overflow-x: hidden;
+       
+    }
     .sbj{
-    width: 500px;
+        margin-top: 50px;
+    width: 100%;
+    height: 145px;
+
     
    }
    .swiper-wrapper{
@@ -218,60 +208,55 @@ header .icons #menu-bars{
     }
     .sbj .box img{
         width:105px;
-        height:100px;
+        height:117px;
         align-items: center;
     }
-    .sbj .content h3{
-        font-size: 1.5rem;
-        color: #ffffff;
-        text-transform: uppercase;
-        text-align: left;
-        background: transparent;
-    }
-    .sbj .content{
-        margin-top: 4px;
-        width: 105px;
-    }
-
-    .copyright{
-        height: 50px;
-        background: var(--black);
-        border-top: .1rem solid rgba(0,0,0,.2);
-       
-        margin-top: 20px;
-        display: block;
-        padding: 10px;  
-        align-items: center;
-        justify-content: center; 
-        text-align: center;
-    }
-    
-    .copyright h3{
-        color: var(--red);
-        font-size: 1.8rem;
-        font-weight: bolder;
-    }
-    
-    .copyright p{
-        font-size: 1.2rem;
-        color: var(--red);
-        margin-bottom: 3px;
-        
-    }
+ 
+   
 
     
+.copyright{
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: block;
+    padding: 20px;   
+    text-align: center;
+}
+.copyright .container{
+    margin-left: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright h3{
+
+    color: var(--red);
+    font-size: 2.1rem;
+    font-weight: bolder;
+}
+
+.copyright p{
+    font-size: 0.9rem;
+    color: var(--red);
+    font-size:2rem;
+}
 
 
-    .btn{
-        margin-top:1rem;
-        display: inline-block;
-        font-size: 1.6rem;
-        color: #fff;
-        background: var(--red);
-        border-radius: .5rem;
-        cursor: pointer;
-        padding: .8rem .3rem;
-    }
+
+.heading{
+    margin-top: 60px;
+    text-align: left;
+    color: red;
+    margin-bottom: 0rem;
+    font-size:3.5rem;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+    
+
+
    
     
     html{
@@ -285,12 +270,14 @@ header .icons #menu-bars{
     }
     header{
         padding: 1rem 2rem;
+        margin-bottom: 0px;
     }
     
     header .icons #menu-bars{
         display: inline-block;
     }
     .navbar {
+        
         margin-left: 0;
         position: fixed;
         top: 0;
@@ -309,11 +296,11 @@ header .icons #menu-bars{
         border-top: .1rem solid rgba(0,0,0,.2);
         border-bottom: .1rem solid rgba(0,0,0,.2);
         padding:1rem;
-        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        
     }
 
     header .navbar.active{
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        
     }
     header .navbar a{
         display:block;
