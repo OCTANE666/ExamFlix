@@ -496,7 +496,7 @@ header .icons #menu-bars{
         background: var(--red);
         border-radius: .5rem;
         cursor: pointer;
-        padding: 1rem 1rem;
+        padding: .8rem .3rem;
     }
    
     
