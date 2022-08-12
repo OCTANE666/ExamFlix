@@ -32,17 +32,21 @@
              <a href="#coa">COA</a>
         </nav>
         <div class="icons">
-            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-bars" id="menu-bars" onclick="show()"></i>
         </div>
     </header>
     <script>
-    let menu = document.querySelector('#menu-bars');
+         let menu = document.querySelector('#menu-bars');
 let navbar = document.querySelector('.navbar');
+        function show(){
+            menu.classList.toggle('menubar');
+            navbar.classList.toggle('active');
+            navbar.style.clippath = "polygon(0 0, 100% 0, 100% 0, 0 0)";
+         
+            
+        }
+   
 
-menu.onclick = () =>{
-  menu.classList.toggle('menubar');
-  navbar.classList.toggle('active');
-}
 </script>
 
 
@@ -60,62 +64,44 @@ menu.onclick = () =>{
 <!-- GTC slider -->
 <section class="sbj" id="gt">
     <h1 class="heading">GTC</h1>
-    <div class="swiper x-slider">
+    <div class="swiper y-slider">
         <div class="swiper-wrapper">
 
             <div class="swiper-slide">
                 <div class="box">
-                    <img src="gtc2.jpg" >
+                    <a href="https://www.youtube.com/playlist?list=PLjK8Y-XuWBerxnsvH300VrFBJp7YMyIe0" > <img src="gtc1.jpg" ></a>
                 </div>
-                <div class="content">
-                    <h3>Module 1</h3>
-                      <a href="https://www.youtube.com/playlist?list=PLjK8Y-XuWBerxnsvH300VrFBJp7YMyIe0" class="btn">Watch Now</a>
               
-                </div>
             </div>
 
             <div class="swiper-slide">
                 <div class="box">
-                    <img src="gtc3.jpg" >
+                    <a href="https://www.youtube.com/playlist?list=PLjK8Y-XuWBeqCT8RoGVC2DEVrymAcaI6p" ><img src="gtc2.jpg" ></a>
                 </div>
-                <div class="content">
-                    <h3>Module 2</h3>
-                    <a href="https://www.youtube.com/playlist?list=PLjK8Y-XuWBeqCT8RoGVC2DEVrymAcaI6p" class="btn">Watch Now</a>
+                
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <a href="https://www.youtube.com/playlist?list=PLjK8Y-XuWBepKxoYp74LpCB8YzvwbzamE" ><img src="gtc3.jpg" ></a>
                     
                 </div>
+              
             </div>
 
             <div class="swiper-slide">
                 <div class="box">
-                    <img src="gtc4.jpg" >
+                    <a href="https://www.youtube.com/playlist?list=PLmkUeDDn2vDUB9ezyA3oAXK_fkydcgnU7" ><img src="gtc4.jpg" ></a>
+                    
                 </div>
-                <div class="content">
-                    <h3>Module 3</h3>
-                    <a href="https://www.youtube.com/playlist?list=PLjK8Y-XuWBepKxoYp74LpCB8YzvwbzamE" class="btn">Watch Now</a>
-                  
-                </div>
+             
             </div>
 
             <div class="swiper-slide">
                 <div class="box">
-                    <img src="gtc5.jpg" >
+                    <a href="https://www.youtube.com/playlist?list=PLmkUeDDn2vDVAkpLmoyMl4opaJG2WGCGo" > <img src="gtc5.jpg" ></a>   
                 </div>
-                <div class="content">
-                    <h3>Module 4</h3>
-                      <a href="https://www.youtube.com/playlist?list=PLmkUeDDn2vDUB9ezyA3oAXK_fkydcgnU7" class="btn">Watch Now</a>
-                   
-                </div>
-            </div>
-
-            <div class="swiper-slide">
-                <div class="box">
-                    <img src="gtc1.jpg" >
-                </div>
-                <div class="content">
-                    <h3>Module-5</h3>
-                     <a href="https://www.youtube.com/playlist?list=PLmkUeDDn2vDVAkpLmoyMl4opaJG2WGCGo" class="btn">Watch Now</a>
-                  
-                </div>
+              
             </div>
 
         
@@ -129,61 +115,47 @@ menu.onclick = () =>{
 <!-- OS slider -->
 <section class="sbj" id="os">
     <h1 class="heading">OS</h1>
-    <div class="swiper x-slider">
+    <div class="swiper y-slider">
         <div class="swiper-wrapper">
 
             <div class="swiper-slide">
                 <div class="box">
-                    <img src="os2.jpg" >
+                    <a href="https://youtube.com/playlist?list=PLAabItQ2r65GcpLmWf-1oP-H8VSKdxxX2">  <img src="os1.jpg" ></a>
+                  
                 </div>
-                <div class="content">
-                    <h3>Module 1</h3>
-                      <a href="https://youtube.com/playlist?list=PLAabItQ2r65GcpLmWf-1oP-H8VSKdxxX2" class="btn">Watch Now</a>
-                
-                </div>
+              
             </div>
 
             <div class="swiper-slide">
                 <div class="box">
-                    <img src="os3.jpg" >
+                    <a href="https://youtube.com/playlist?list=PLAabItQ2r65EhXsEEwTvlrL5_yWFG7CkS" >  <img src="os2.jpg" ></a>
+                  
                 </div>
-                <div class="content">
-                    <h3>Module 2</h3>
-                        <a href="https://youtube.com/playlist?list=PLAabItQ2r65EhXsEEwTvlrL5_yWFG7CkS" class="btn">Watch Now</a>
+              
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <a href="https://youtube.com/playlist?list=PLAabItQ2r65EYMA4JiN9vcHkYxfZWKFKa" > <img src="os3.jpg" ></a>
                    
                 </div>
+               
             </div>
 
             <div class="swiper-slide">
                 <div class="box">
-                    <img src="os4.jpg" >
-                </div>
-                <div class="content">
-                    <h3>Module 3</h3>
-                     <a href="https://youtube.com/playlist?list=PLAabItQ2r65EYMA4JiN9vcHkYxfZWKFKa" class="btn">Watch Now</a>
-                    
-                </div>
-            </div>
-
-            <div class="swiper-slide">
-                <div class="box">
-                    <img src="os5.jpg" >
-                </div>
-                <div class="content">
-                    <h3>Module 4</h3>
-                    <a href="https://youtube.com/playlist?list=PLAabItQ2r65FEHQWIgeJtzR0E-3ut0pJH" class="btn">Watch Now</a>
+                    <a href="https://youtube.com/playlist?list=PLAabItQ2r65FEHQWIgeJtzR0E-3ut0pJH" > <img src="os4.jpg" ></a>
                    
                 </div>
+               
             </div>
 
             <div class="swiper-slide">
                 <div class="box">
-                    <img src="os1.jpg" >
+                    <a href="https://www.youtube.com/playlist?list=PLmkUeDDn2vDWfK1cQFV8ghyaRTvUQrfnD" > <img src="os5.jpg" ></a>
+                   
                 </div>
-                <div class="content">
-                    <h3>Module-5</h3>
-                   <a href="https://www.youtube.com/playlist?list=PLmkUeDDn2vDWfK1cQFV8ghyaRTvUQrfnD" class="btn">Watch Now</a>
-                </div>
+              
             </div>
 
         
@@ -195,61 +167,47 @@ menu.onclick = () =>{
 <!-- Dbms slider -->
 <section class="sbj" id="dbms">
     <h1 class="heading">DBMS</h1>
-    <div class="swiper x-slider">
+    <div class="swiper y-slider">
         <div class="swiper-wrapper">
 
             <div class="swiper-slide">
                 <div class="box">
-                    <img src="dbms2.jpg" >
+                    <a href="https://www.youtube.com/playlist?list=PLmkUeDDn2vDU1pvKkBXmDbuw7UP5VySDL" ><img src="dbms1.jpg" ></a>
+                    
                 </div>
-                <div class="content">
-                    <h3>Module 1</h3>
-                      <a href="https://www.youtube.com/playlist?list=PLmkUeDDn2vDU1pvKkBXmDbuw7UP5VySDL" class="btn">Watch Now</a>
-                 
-                </div>
+              
             </div>
 
             <div class="swiper-slide">
                 <div class="box">
-                    <img src="dbms3.jpg" >
-                </div>
-                <div class="content">
-                    <h3>Module 2</h3>
-                       <a href="https://www.youtube.com/playlist?list=PL-eYxJ0OXxPVMWR12M4noUA4tpziWtCvM" class="btn">Watch Now</a>
-                  
-                </div>
-            </div>
-
-            <div class="swiper-slide">
-                <div class="box">
-                    <img src="dbms4.jpg" >
-                </div>
-                <div class="content">
-                    <h3>Module 3</h3>
-                      <a href="https://www.youtube.com/playlist?list=PL-eYxJ0OXxPVA45-I0Qn8_Tw-rdM6o8gn" class="btn">Watch Now</a>
+                    <a href="https://www.youtube.com/playlist?list=PL-eYxJ0OXxPVMWR12M4noUA4tpziWtCvM" > <img src="dbms2.jpg" ></a>
                    
                 </div>
+               
             </div>
 
             <div class="swiper-slide">
                 <div class="box">
-                    <img src="dbms5.jpg" >
+                    <a href="https://www.youtube.com/playlist?list=PL-eYxJ0OXxPVA45-I0Qn8_Tw-rdM6o8gn" >  <img src="dbms3.jpg" ></a>
+                  
                 </div>
-                <div class="content">
-                    <h3>Module 4</h3>
-                     <a href="https://www.youtube.com/playlist?list=PL-eYxJ0OXxPWRcrKrtzA3kQ_C88KDEjuJ" class="btn">Watch Now</a>
-                 
-                </div>
+               
             </div>
 
             <div class="swiper-slide">
                 <div class="box">
-                    <img src="dbms1.jpg" >
+                    <a href="https://www.youtube.com/playlist?list=PL-eYxJ0OXxPWRcrKrtzA3kQ_C88KDEjuJ" ><img src="dbms4.jpg" ></a>
+                    
                 </div>
-                <div class="content">
-                    <h3>Module-5</h3>
-                     <a href="https://www.youtube.com/playlist?list=PLmkUeDDn2vDVDJ9B6OjkNy9OX7vy2NXWl" class="btn">Watch Now</a>
+               
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <a href="https://www.youtube.com/playlist?list=PLmkUeDDn2vDVDJ9B6OjkNy9OX7vy2NXWl" ><img src="dbms5.jpg" ></a>
+                    
                 </div>
+               
             </div>
 
         
@@ -261,62 +219,47 @@ menu.onclick = () =>{
 <!-- coa slider -->
 <section class="sbj" id="coa">
     <h1 class="heading">COA</h1>
-    <div class="swiper x-slider">
+    <div class="swiper y-slider">
         <div class="swiper-wrapper">
           
             <div class="swiper-slide">
                 <div class="box">
-                    <img src="coa2.jpg" >
+                    <a href="https://www.youtube.com/playlist?list=PLQYcapUsYtQXXd1EqMi5ZUSW7Sx69zzid" ><img src="coa1.jpg" ></a>
+                    
                 </div>
-                <div class="content">
-                    <h3>Module 1</h3>
-                    <a href="https://www.youtube.com/playlist?list=PLQYcapUsYtQXXd1EqMi5ZUSW7Sx69zzid" class="btn">Watch Now</a>
-                   
-                </div>
+              
             </div>
 
             <div class="swiper-slide">
                 <div class="box">
-                    <img src="coa3.jpg" >
-                </div>
-                <div class="content">
-                    <h3>Module 2</h3>
-                     <a href="https://www.youtube.com/playlist?list=PLQYcapUsYtQUUGYIIa32BrUZKXiFolrK5" class="btn">Watch Now</a>
+                    <a href="https://www.youtube.com/playlist?list=PLQYcapUsYtQUUGYIIa32BrUZKXiFolrK5" >  <img src="coa2.jpg" ></a>
                   
                 </div>
-            </div>
-
-            <div class="swiper-slide">
-                <div class="box">
-                    <img src="coa4.jpg" >
-                </div>
-                <div class="content">
-                    <h3>Module 3</h3>
-                      <a href="https://www.youtube.com/playlist?list=PLQYcapUsYtQWV03BENxiZ3-v0rVwyUkj9" class="btn">Watch Now</a>
-                   
-                </div>
-            </div>
-
-            <div class="swiper-slide">
-                <div class="box">
-                    <img src="coa5.jpg" >
-                </div>
-                <div class="content">
-                    <h3>Module 4</h3>
-            <a href="https://www.youtube.com/playlist?list=PLQYcapUsYtQU5f4bv1uszdgQPbsgjeQ6f" class="btn">Watch Now</a>
-                  
-                </div>
-            </div>
-
-            <div class="swiper-slide">
-                <div class="box">
-                    <img src="coa1.jpg" >
-                </div>
-                <div class="content">
-                    <h3>Module 5</h3>
                
-                     <a href="https://www.youtube.com/playlist?list=PLQYcapUsYtQURlzjENguk6XmrPmEzQsnQ" class="btn">Watch Now</a>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <a href="https://www.youtube.com/playlist?list=PLQYcapUsYtQWV03BENxiZ3-v0rVwyUkj9" > <img src="coa3.jpg" ></a>
+                   
                 </div>
+               
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <a href="https://www.youtube.com/playlist?list=PLQYcapUsYtQU5f4bv1uszdgQPbsgjeQ6f" >  <img src="coa4.jpg" ></a>
+                  
+                </div>
+               
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <a href="https://www.youtube.com/playlist?list=PLQYcapUsYtQURlzjENguk6XmrPmEzQsnQ" > <img src="coa5.jpg" ></a>
+                   
+                </div>
+              
             </div>
 
 
@@ -346,19 +289,13 @@ menu.onclick = () =>{
 
 <!--COA Script -->
 <script>
-   var swiper = new Swiper(".x-slider", {
+   var swiper = new Swiper(".y-slider", {
     slidesPerView: 3,
-    spaceBetween: 50,
-    centeredSlides: true,
-    autoplay: {
-      delay: 450000,
-      disableOnInteraction: false,
-    },
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-    loop:true
+    spaceBetween: 30,
+    slidesPerGroup: 3,
+    
+   
+  
   });
 </script>
 
