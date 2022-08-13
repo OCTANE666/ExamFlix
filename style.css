@@ -222,7 +222,7 @@ header .icons #menu-bars{
     color: #b1b1b1
 }
 header h2{
- margin-left:90px;
+ margin-left:55px;
     font-size: 20px;
     color: #8197a4
     
@@ -239,7 +239,7 @@ header h2{
 .dropdown-content {
   display: none;
   margin-top: 40%;
- height: 30vh;
+ height: 25vh;
   position: absolute;
   left: 0;
   right: 0;
